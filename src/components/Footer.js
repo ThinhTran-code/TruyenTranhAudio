@@ -42,8 +42,8 @@ function Footer() {
                         </Col>
                     </Row>
                 </Container>
-                <p>&copy; TruyenTranhAudio</p>
             </div>
+            <p>&copy; Đặt Sân Bóng Đá Nhanh Và Uy Tín </p>
         </footer>
     );
 }

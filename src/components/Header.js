@@ -5,14 +5,14 @@ export default function Header() {
     return (
         <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
             <Container>
-                <Navbar.Brand href="/">TruyenTranhAudio</Navbar.Brand>
+                <Navbar.Brand href="/">Sân Bóng Đá Hà Nội</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="home">Trang Chủ</Nav.Link>
-                        <Nav.Link href="categories">Thể Loại</Nav.Link>
-                        <Nav.Link href="history">Lịch Sử</Nav.Link>
-                        <Nav.Link href="hot">Truyện Mới</Nav.Link>
+                        <Nav.Link href="trangchu">Trang Chủ</Nav.Link>
+                        <Nav.Link href="danhsachsan">Danh Sách Sân </Nav.Link>
+                        <Nav.Link href="dieukhoan">Điều Khoản</Nav.Link>
+                        <Nav.Link href="lienhe">Liên Hệ</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <Button>Login</Button>

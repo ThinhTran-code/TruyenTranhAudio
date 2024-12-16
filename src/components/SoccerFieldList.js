@@ -26,27 +26,15 @@ const stories = [
         img: "https://via.placeholder.com/150",
         description: "Description 3",
     },
-    {
-        id: 3,
-        title: "Truyen Tranh  3",
-        img: "https://via.placeholder.com/150",
-        description: "Description 3",
-    },
-    {
-        id: 3,
-        title: "Truyen Tranh  3",
-        img: "https://via.placeholder.com/150",
-        description: "Description 3",
-    },
 ];
 
-function StoryList() {
+function SoccerFieldList() {
     return (
         <Container className="my-4">
-            <h2 className="mb-4">List Truyen Tranh</h2>
+            <h2 className="mb-4">Danh Sách Sân</h2>
             <Row>
                 {stories.map((story) => (
-                    <Col key={story.id} md={2} className="mb-3">
+                    <Col key={story.id} md={3} className="mb-3">
                         <Card>
                             <Card.Img variant="top" src={story.img} />
                             <Card.Body>
@@ -56,7 +44,7 @@ function StoryList() {
                                     href={`/story/${story.id}`}
                                     className="btn btn-primary"
                                 >
-                                    Read More
+                                    Đặt Sân
                                 </a>
                             </Card.Body>
                         </Card>
@@ -65,7 +53,7 @@ function StoryList() {
             </Row>
             <Row>
                 {stories.map((story) => (
-                    <Col key={story.id} md={2} className="mb-3">
+                    <Col key={story.id} md={3} className="mb-3">
                         <Card>
                             <Card.Img variant="top" src={story.img} />
                             <Card.Body>
@@ -75,7 +63,7 @@ function StoryList() {
                                     href={`/story/${story.id}`}
                                     className="btn btn-primary"
                                 >
-                                    Read More
+                                    Đặt Sân
                                 </a>
                             </Card.Body>
                         </Card>
@@ -86,4 +74,4 @@ function StoryList() {
     );
 }
 
-export default StoryList;
+export default SoccerFieldList;
