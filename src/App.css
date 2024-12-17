@@ -42,3 +42,62 @@
 .footer-right .contact-info a:hover {
     text-decoration: underline;
 }
+
+/* Định nghĩa kiểu cho các button login form*/
+.social-btn {
+    width: 400px;
+    height: 70px;
+    border-radius: 25px;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: #0d6efd;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Định nghĩa kiểu cho trường nhập liệu */
+.input-field {
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-field:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+
+/* Định nghĩa divider */
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.divider span {
+    font-weight: 600;
+    font-size: 16px;
+    color: #888;
+}
+/* Đảm bảo loại bỏ margin và padding của toàn bộ trang */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}

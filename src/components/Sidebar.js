@@ -7,24 +7,26 @@ export default function Sidebar() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://via.placeholder.com/1200x400"
+                    src="/pictures/field1.png"
                     alt="First slide"
+                    style={{ height: "450px" }}
                 />
-                <Carousel.Caption>
-                    <h3>First Slide</h3>
-                    <p>Some quick example text.</p>
-                </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://via.placeholder.com/1200x400"
+                    src="/pictures/field19.png"
                     alt="Second slide"
+                    style={{ height: "450px" }}
                 />
-                <Carousel.Caption>
-                    <h3>Second Slide</h3>
-                    <p>Some quick example text.</p>
-                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src="/pictures/field20.png"
+                    alt="Second slide"
+                    style={{ height: "450px" }}
+                />
             </Carousel.Item>
         </Carousel>
     );
