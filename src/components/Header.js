@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Nav, Navbar } from "react-bootstrap";
+import { Button, Container, Nav, Navbar, NavLink } from "react-bootstrap";
 
 export default function Header() {
     return (
@@ -9,8 +9,13 @@ export default function Header() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="trangchu">Trang Chủ</Nav.Link>
-                        <Nav.Link href="danhsachsan">Danh Sách Sân </Nav.Link>
+                        <Nav.Link as={NavLink} to="/" end href="trangchu">
+                            {" "}
+                            Trang Chủ
+                        </Nav.Link>
+                        <Nav.Link as={NavLink} to="" end href="danhsachsan">
+                            Danh Sách Sân{" "}
+                        </Nav.Link>
                         <Nav.Link href="dieukhoan">Điều Khoản</Nav.Link>
                         <Nav.Link href="lienhe">Liên Hệ</Nav.Link>
                     </Nav>

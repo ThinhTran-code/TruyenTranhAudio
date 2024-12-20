@@ -100,7 +100,10 @@ export default function Signup() {
                                 </Button>
 
                                 <div className="mt-3 text-center">
-                                    <p className="text-muted">
+                                    <p
+                                        className="text-muted123"
+                                        style={{ color: "white" }}
+                                    >
                                         Already have an account?{" "}
                                         <a
                                             href="/"
